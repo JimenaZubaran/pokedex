@@ -12,11 +12,11 @@ function allPokemons(pokemon){
         console.log(pokemonName);
         console.log(pokemonUrl);
         output += 
-        `<div class="cards row col m3">
-        <div class="col s12 m3 lg5 cards">
+        `<div class="col m4">
+        <div class="col m12">
           <div class="card">
             <div class="card-image">
-              <img src="https://dummyimage.com/200x200/">
+              <img src="https://vignette.wikia.nocookie.net/creepypasta/images/3/3b/Pokemon.jpg/revision/latest?cb=20170708060202&path-prefix=es">
             </div>
             <div class="card-content">
               <p>${pokemonName}</p>
