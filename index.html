@@ -9,7 +9,7 @@
   <body>
 
     <section class="container">
-      <h1 class="red-text" >Pokedex</h1>
+      <h1 class="red-text" >Pokédex</h1>
       <form id=pokeform>
           <input id=pokenumber placeholder="Search pokemon"/>
           <button class="waves-effect waves-light red btn" type=submit>Go!</button>
@@ -18,7 +18,17 @@
 
       
       
-        <div class="row"  id="container-pokemon"></div>
+        <div class="row"  id="container-pokemon">
+
+          <div id="modal1" class="modal">
+            <div class="modal-content">
+              <h4 id="capture">captureRate</h4>
+              <p id="habitat">habitat</p>
+              <p id="color">color</p>
+            </div>
+          </div>
+
+        </div>
     </section>
     
     <script
